@@ -1,2 +1,2 @@
 # MediGenius
-Mediacal diagnosis using artificial intelligence
+Medical diagnosis using artificial intelligence
