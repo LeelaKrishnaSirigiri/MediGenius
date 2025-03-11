@@ -2,8 +2,7 @@ import streamlit as st
 import pickle
 from streamlit_option_menu import option_menu
 
-# Change Name & Logo
-st.set_page_config(page_title="Disease Prediction", page_icon="⚕️")
+st.set_page_config(page_title="MediGenius", page_icon="🩺")
 
 # Hiding Streamlit add-ons
 hide_st_style = """
@@ -43,11 +42,11 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load the saved models
 models = {
-    'diabetes': pickle.load(open('Models/diabetes_model.sav', 'rb')),
-    'heart_disease': pickle.load(open('Models/heart_disease_model.sav', 'rb')),
-    'parkinsons': pickle.load(open('Models/parkinsons_model.sav', 'rb')),
-    'lung_cancer': pickle.load(open('Models/lungs_disease_model.sav', 'rb')),
-    'thyroid': pickle.load(open('Models/Thyroid_model.sav', 'rb'))
+    'diabetes': pickle.load(open('diabetes_model.sav', 'rb')),
+    'heart_disease': pickle.load(open('heart_disease_model.sav', 'rb')),
+    'parkinsons': pickle.load(open('parkinsons_model.sav', 'rb')),
+    'lung_cancer': pickle.load(open('lungs_disease_model.sav', 'rb')),
+    'thyroid': pickle.load(open('Thyroid_model.sav', 'rb'))
 }
 
 # Create a dropdown menu for disease prediction
