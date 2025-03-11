@@ -15,8 +15,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Adding Background Image
-background_image_url = "https://www.strategyand.pwc.com/m1/en/strategic-foresight/sector-strategies/healthcare/ai-powered-healthcare-solutions/img01-section1.jpg"  # Replace with your image URL
-
+background_image_url ="https://rejolut.com/wp-content/uploads/2023/08/Ai-inHealthcare-1024x683.png"
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] {{
